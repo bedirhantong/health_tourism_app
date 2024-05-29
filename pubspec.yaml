@@ -1,0 +1,64 @@
+name: heatlh_tourism
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_riverpod: ^2.4.9
+  google_fonts: ^5.1.0
+  smooth_page_indicator: ^1.1.0
+  flutter_otp_text_field: ^1.1.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_screenutil: ^5.8.3
+  flutter_svg: ^2.0.10+1
+  dots_indicator: ^3.0.0
+  get: ^4.6.5
+  oktoast: ^3.3.1
+  get_storage: ^2.1.1
+  carousel_slider: ^4.2.1
+  google_maps_flutter: ^2.2.8
+  shared_preferences: ^2.2.2
+  http: ^1.2.1
+  url_launcher: ^6.1.7
+  shimmer: ^3.0.0
+  intl: ^0.18.1
+  awesome_snackbar_content: ^0.1.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/images/logo/logo.png"
+  image_path_ios: "assets/images/logo/logo.png"
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/logo/
+    - assets/images/onboarding/
+    - assets/icons/
+    - assets/images/clinics/
+    - assets/images/offers/
+    - assets/images/hotels/
